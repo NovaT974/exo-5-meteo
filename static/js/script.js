@@ -8,7 +8,7 @@ $(document).ready(function () {
             var nom = data.name;
             var temp = data.main.temp;
             console.log(data);
-            $('#liste-ville').append('<li class="list-group-item"> ' + data.name + ' : ' + data.main.temp + '</li>');
+            $('#liste-ville').append('<li class="list-group-item"><h2 class="bg-warning text-white p-2"> ' + data.name + '</h2><p class="p-2 bg-light">   ' + data.main.temp + '</p></li>');
         }
     })
     //
@@ -21,7 +21,7 @@ $(document).ready(function () {
             var nom = data.name;
             var temp = data.main.temp;
             console.log(data);
-            $('#liste-ville').append('<li class="list-group-item"> ' + data.name + ' : ' + data.main.temp + '</li>');
+            $('#liste-ville').append('<li class="list-group-item"><h2 class="bg-warning text-white p-2"> ' + data.name + '</h2><p class="p-2 bg-light">   ' + data.main.temp + '</p></li>');
         }
     })
 
@@ -36,7 +36,7 @@ $(document).ready(function () {
             var nom = data.name;
             var temp = data.main.temp;
             console.log(data);
-            $('#liste-ville').append('<li  class="list-group-item"> ' + data.name + ' : ' + data.main.temp + '</li>');
+            $('#liste-ville').append('<li  class="list-group-item"><h2 class="bg-warning text-white p-2"> ' + data.name + '</h2><p class="p-2 bg-light">   ' + data.main.temp + '</p></li>');
         }
     })
 
@@ -51,7 +51,7 @@ $(document).ready(function () {
             var nom = data.name;
             var temp = data.main.temp;
             console.log(data);
-            $('#liste-ville').append('<li class="list-group-item"> ' + data.name + ' : ' + data.main.temp + '</li>');
+            $('#liste-ville').append('<li class="list-group-item"> <h2 class="bg-warning text-white p-2">' + data.name + '</h2><p class="p-2 bg-light">  ' + data.main.temp + '</p></li>');
         }
     })
 
