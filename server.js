@@ -45,7 +45,7 @@ request(url2, function (err, response, body) {
 let city3 = 'Moscou';
 let url3 = `http://api.openweathermap.org/data/2.5/weather?q=${city3}&appid=${apiKey}`;
 
-request(url2, function (err, response, body) {
+request(url3, function (err, response, body) {
     if(err){
       console.log('error:', error);
     } else {
@@ -54,7 +54,7 @@ request(url2, function (err, response, body) {
 });
 
 
-let city4 = 'Réunion';
+let city4 = 'Reunion';
 let url4 = `http://api.openweathermap.org/data/2.5/weather?q=${city4}&appid=${apiKey}`;
 
 request(url4, function (err, response, body) {
@@ -174,7 +174,7 @@ server.post("/reunion", function (req, res) {
 
 server.post('/meteo', function (req, res) {
     res.json(obj)
-})
+});
 
 
 server.listen(3002);    
